@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Delta Force Code Helper",
+  "version": "1.0.0",
+  "description": "Hỗ trợ nhập và đổi nhiều giftcode trên trang Delta Force.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Delta Force Code Helper"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delta Force Code Helper</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Delta Force <span>Code Helper</span></h1>
+      <div id="status" class="status-badge ready">Sẵn sàng</div>
+    </header>
+
+    <div class="section">
+      <div class="section-header">
+        <label for="codes-input">Khu vực nhập code</label>
+        <span id="code-count">0 code</span>
+      </div>
+      <textarea id="codes-input" placeholder="Nhập các code vào đây, mỗi code 1 dòng...&#10;ABC123&#10;XYZ456"></textarea>
+      <div class="button-group-small">
+        <button id="btn-paste" class="btn-secondary">Dán</button>
+        <button id="btn-clear" class="btn-secondary">Xóa</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="setting-row">
+        <label for="delay-input">Thời gian chờ (giây):</label>
+        <input type="number" id="delay-input" min="1" max="60" value="5">
+      </div>
+    </div>
+
+    <div class="section control-section">
+      <div class="button-group-large">
+        <button id="btn-start" class="btn-primary">▶ Bắt đầu</button>
+        <button id="btn-stop" class="btn-danger" disabled>■ Dừng</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">
+        <label>Tiến trình</label>
+        <span id="progress-text">0 / 0</span>
+      </div>
+      <div class="progress-container">
+        <div id="progress-bar" class="progress-bar" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <div class="section flex-grow">
+      <div class="section-header">
+        <label>Kết quả</label>
+      </div>
+      <div id="results-container" class="results-container">
+        <!-- Results will be populated here -->
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
