@@ -21,8 +21,7 @@ Gõ `chrome://extensions/` vào thanh địa chỉ rồi Enter. Bật cái công
 
 Bấm **Tải tiện ích đã giải nén** → chọn thư mục bạn vừa giải nén → xong.
 
-Sau đó bấm vào biểu tượng mảnh ghép 🧩 góc trên bên phải Chrome, ghim tool này ra ngoài cho tiện bấm.
-
+Sau đó bấm vào biểu tượng  🧩 góc trên bên phải Chrome
 ---
 
 ## Cách dùng
