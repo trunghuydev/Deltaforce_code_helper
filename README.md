@@ -1,23 +1,13 @@
 # Delta Force Code Helper
 
-Tool tự động đổi giftcode cho game Delta Force, tải về dùng miễn phí, không lo mất tài khoản vì code mở hoàn toàn.
+Tool tự động đổi giftcode cho game Delta Force
 
-Nếu bạn đang có cả đống code mà nhập tay thì mệt lắm, cái này sẽ lo hết cho bạn.
 
----
 
-## Nó làm được gì?
-
-- Tự động điền code vào ô và bấm nút đổi, bạn không cần làm gì cả
-- Nhập một lúc cả trăm code cũng được, nó sẽ chạy lần lượt từng cái
-- Trong lúc nó chạy bạn có thể làm việc khác, kể cả đóng cái bảng công cụ lại cũng không sao
-- Hiển thị rõ code nào đổi được, code nào lỗi hoặc đã dùng rồi
 
 ---
 
 ## Cài đặt
-
-Không có trên CH Play hay App Store gì đâu, phải cài thủ công một chút nhưng làm một lần thôi.
 
 **1. Tải code về**
 
